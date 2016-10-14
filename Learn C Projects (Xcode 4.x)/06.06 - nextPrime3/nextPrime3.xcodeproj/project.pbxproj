@@ -1,0 +1,201 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81E4BE7C13C2175900C648DD /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 81E4BE7B13C2175900C648DD /* main.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		81E4BE7513C2175900C648DD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		81E4BE7713C2175900C648DD /* nextPrime3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = nextPrime3; sourceTree = BUILT_PRODUCTS_DIR; };
+		81E4BE7B13C2175900C648DD /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		81E4BE7D13C2175900C648DD /* nextPrime3.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = nextPrime3.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81E4BE7413C2175900C648DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81E4BE6C13C2175900C648DD = {
+			isa = PBXGroup;
+			children = (
+				81E4BE7A13C2175900C648DD /* nextPrime3 */,
+				81E4BE7813C2175900C648DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81E4BE7813C2175900C648DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81E4BE7713C2175900C648DD /* nextPrime3 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81E4BE7A13C2175900C648DD /* nextPrime3 */ = {
+			isa = PBXGroup;
+			children = (
+				81E4BE7B13C2175900C648DD /* main.c */,
+				81E4BE7D13C2175900C648DD /* nextPrime3.1 */,
+			);
+			path = nextPrime3;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81E4BE7613C2175900C648DD /* nextPrime3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81E4BE8013C2175900C648DD /* Build configuration list for PBXNativeTarget "nextPrime3" */;
+			buildPhases = (
+				81E4BE7313C2175900C648DD /* Sources */,
+				81E4BE7413C2175900C648DD /* Frameworks */,
+				81E4BE7513C2175900C648DD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nextPrime3;
+			productName = nextPrime3;
+			productReference = 81E4BE7713C2175900C648DD /* nextPrime3 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81E4BE6E13C2175900C648DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Dave Mark";
+			};
+			buildConfigurationList = 81E4BE7113C2175900C648DD /* Build configuration list for PBXProject "nextPrime3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 81E4BE6C13C2175900C648DD;
+			productRefGroup = 81E4BE7813C2175900C648DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81E4BE7613C2175900C648DD /* nextPrime3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81E4BE7313C2175900C648DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E4BE7C13C2175900C648DD /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		81E4BE7E13C2175900C648DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		81E4BE7F13C2175900C648DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		81E4BE8113C2175900C648DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		81E4BE8213C2175900C648DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81E4BE7113C2175900C648DD /* Build configuration list for PBXProject "nextPrime3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81E4BE7E13C2175900C648DD /* Debug */,
+				81E4BE7F13C2175900C648DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81E4BE8013C2175900C648DD /* Build configuration list for PBXNativeTarget "nextPrime3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81E4BE8113C2175900C648DD /* Debug */,
+				81E4BE8213C2175900C648DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81E4BE6E13C2175900C648DD /* Project object */;
+}
